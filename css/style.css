@@ -33,6 +33,16 @@ body>div>header>nav>div>.navbar-brand {
   font-family: 'Nunitosans_bold', Arial, Helvetica, sans-serif;
 }
 
+#navbarSupportedContent > form > button{
+  background-color: rgb(203, 128, 128);
+  color: white;
+}
+
+#navbarSupportedContent > form > button:hover{
+  background-color: rgb(250, 128, 128);
+}
+
+
 header {
   grid-area: header;
 }
