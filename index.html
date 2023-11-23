@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- bootstrap link using cdn  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <title>Assignment-2</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- navigation bar -->
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light fs-6 ">
+          <div class="container-fluid">
+            <a class="navbar-brand fs-3" href="#">Can't Hurt Me</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Custom Cover</a></li>
+                    <li><a class="dropdown-item" href="#">Book Case</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="#">More Books</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <!-- carousel  -->
+        <!-- book cover links: https://pin.it/45gzlU5
+            2.) https://pin.it/4DUYGMO -->
+        <section id="carouselBookCover" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselBookCover"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselBookCover"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/Can't Hurt Me - David Goggins.jpeg"
+                class="d-block w-100"
+                alt="david goggins first book"
+              />
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/'Never Finished' von 'David Goggins' - 'Taschenbuch' - '978-1-5445-3407-7'.jpeg"
+                class="d-block w-100"
+                alt="david goggins second book"
+              />
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselBookCover"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselBookCover"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </section>
+      </main>
+      <!-- accordion -->
+      <section  class="accordion" id="accordionPanel">
+        <div class="custom-p-1">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  Can't Hurt Me
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                   <!-- paragraph summary from https://www.shortform.com/summary/cant-hurt-me-summary-david-goggins?utm_source=bing&utm_medium=cpc&utm_campaign=Book%20-%20Can%27t%20Hurt%20Me%20-%20Phrase%20-%20Intl&utm_term=can%27t%20hurt%20me%20book%20synopsis&utm_content=84388059539593&msclkid=1955f1fed0f9110a9d0894a8592bfa29 -->
+                  <p>
+                    <strong>In Can't Hurt Me</strong>, former Navy SEAL David Goggins describes his
+                    transformation from someone who let his circumstances control him to
+                    someone who proactively seeks greatness by tackling new challenges.
+                    He thinks everyone can work to cultivate a drive for
+                    self-improvement in order to overcome obstacles and reach their
+                    goals.
+                  </p>
+                  <p>
+                    Most of us only give 40 percent of our effort, leaving 60 percent on
+                    the table and falling short of our potential. Goggins offers 10
+                    actionables to help people push themselves to address obstacles and
+                    work efficiently toward their goals.
+                  </p>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section>
+        <!--actual image frm : joe rogan: /* review images from https://pin.it/5fCN11v */, marcys luttrell from https://pin.it/Q3G8c21, and kelly slater from https://pin.it/4bWgPI9 -->
+        <div>
+          <img
+            src="./images/reviewimages/Joe Rogan Experience Decal Sticker Podcast.jpg"
+            height="50px"
+            width="50px"
+            alt="placeholder image"
+          />
+          <h3>Joe Rogan</h3>
+          <p>
+            <i>
+              "Standup Comedian and Host of the Joe Rogan Experience Podcast"</i
+            >
+          </p>
+          <p>
+            "David Goggins is a being of pure will and inspiration. Just
+            listening to this guy talk makes you want to run up a mountain. I
+            firmly believe people like him can change the course of the world
+            just by inspiring us to push harder and dig deeper in everything we
+            do. His goal to be 'uncommon amongst uncommon people' is something
+            we can all use to propel ourselves to fulfill our true potential.
+            I'm a better man having met him."
+          </p>
+        </div>
+        <div>
+          <img
+            src="./images/reviewimages/marcusluttrellreview.jpg"
+            height="50px"
+            width="50px"
+            alt="placeholder image"
+          />
+          <h3>Marcus Luttrell</h3>
+          <p>
+            <i
+              >"Retired Navy SEAL, Author of New York Times Best Seller Lone
+              Survivor"</i
+            >
+          </p>
+          <p>
+            "David Goggins lives out every goal, every dream no matter what.
+            PERIOD. He's unstoppable. There's no limit to him because he doesn't
+            live in a comfort zone. His mental and physical capacity are equal.
+            Goggins proves that your body can handle anything if you let your
+            mind keep up. There's no way to stop something or someone that
+            doesn't understand the concept of being beat."
+          </p>
+        </div>
+        <div>
+          <img
+            src="./images/reviewimages/high enough to see the sea.jpg"
+            height="50px"
+            width="50px"
+            alt="placeholder image"
+          />
+          <h3>Kelly Slater</h3>
+          <p><i>"Eleven-Time World Champion Surfer"</i></p>
+          <p>
+            "I'm inspired that people like this guy exist. Not everyone will
+            live a life like David Goggins, but he is proof that anyone could if
+            given the right headspace within."
+          </p>
+        </div>
+      </section>
+      <aside>
+        <!-- picture by https://pin.it/7nExxkD -->
+        <img src="./images/davidgogginpic.jpg" alt="david goggin picture">
+        <!-- intro by https://en.wikipedia.org/wiki/David_Goggins -->
+        <p>David Goggins (born February 17, 1975) is an American retired United States Navy SEAL. He is also an ultramarathon runner, ultra-distance cyclist, triathlete, public speaker, and author of two memoirs, and was inducted into the International Sports Hall of Fame for his achievements in sport. Goggins was also awarded the VFW Americanism award in 2018, for his service in the United States Armed Forces. Goggins also published a New York Times Best Seller book titled Can't Hurt Me: Master Your Mind and Defy the Odds.</p>
+      </aside>
+      <footer>
+        <p>&copy;Copyright 2023: Aryan Bhattarai. All Rights Reserved</p>
+      </footer>
+    </div>
+    <!--container div-->
+    <!-- js  -->
+    <script src="./js/davidg.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    
+  </body>
+</html>
